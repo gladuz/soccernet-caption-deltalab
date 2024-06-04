@@ -108,7 +108,7 @@ if __name__ == '__main__':
         classifying.main(args)
         logging.info(f'Total Execution Time is {time.time()-start} seconds')
 
-        # args.weights_encoder = f"models/{args.model_name}/classifying/model.pth.tar" if args.pretrain else None
+        args.weights_encoder = f"models/{args.model_name}/classifying/model.pth.tar" if args.pretrain else None
         captioning.main(args)
         logging.info(f'Total Execution Time is {time.time()-start} seconds')
 
