@@ -58,7 +58,7 @@ python main.py --SoccerNet_path=path/to/SoccerNet/  \
 --gpt_type gpt2 \
 --NMS_threshold 0.7
 ```
-Replace `path/to/SoccerNet` with the local path for Soccernet dataset's `caption-2024` folder. Other options are listed in `main.py`. The results should be around 26 in METEOR.
+Replace `path/to/SoccerNet` with the local path for Soccernet dataset's `caption-2024` folder. Other options are listed in `main.py`. The results should be around 26 in METEOR_loose_test_pt.
 
 ## Main parameters
 - `--gpt_type`: language model. `gpt2` or `gpt2-medium`. It will load the weights from huggingface by default.
