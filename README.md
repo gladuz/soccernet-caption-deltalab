@@ -4,6 +4,7 @@
 This repository contains the code and models for our SoccerNet 2024 Dense Video Captioning submission from [DeLTA Lab](https://sites.google.com/view/jmkang/about-our-lab). The project leverages a BLIP-2 like architecture with GPT-2 model as a language model.
 
 ## Model Architecture
+![Model architecture](https://raw.githubusercontent.com/gladuz/soccernet-caption-deltalab/main/assets/architecture.png)
 We adapted a framework similar to the BLIP-2 model with the following components:
 - **Transformer Decoder**: 4 layers, D = 512, 8 trainable query tokens.
 - **Visual Features**: Pre-extracted by Baidu team, window size T = 30.
